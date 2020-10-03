@@ -19,7 +19,7 @@ on:
 jobs:
   auto_integrate:
     # Don't run on forks
-    if: github.repository == 'google/llvm-bazel'
+    # if: github.repository == 'google/llvm-bazel'
     runs-on: ubuntu-18.04
     # Mostly so that busy-waiting through turnstyle is not indefinite.
     timeout-minutes: 15
