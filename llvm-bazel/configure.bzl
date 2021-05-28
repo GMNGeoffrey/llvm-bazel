@@ -2,7 +2,7 @@
 # See https://llvm.org/LICENSE.txt for license information.
 # SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
 
-"""Helper macros to configure the LLVM overlay project."""
+"""Configuration of the LLVM overlay project."""
 
 load("@bazel_tools//tools/build_defs/repo:utils.bzl", "maybe")
 load(":zlib.bzl", "llvm_zlib_disable", "llvm_zlib_system")
